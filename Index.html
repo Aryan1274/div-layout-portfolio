@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="parent">
+    <div class="div1 header">
+      <div class="logo">MyLogo</div>
+      <nav class="menu">
+        <a href="#" data-target="home">Home</a>
+        <a href="#" data-target="about">About</a>
+        <a href="#" data-target="projects">Projects</a>
+        <a href="#" data-target="contact">Contact</a>
+      </nav>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+      </div>
+    </div>
+
+    <div class="div2 sidebar">
+      <div class="sidebar-content">
+        <div class="sidebar-section">
+          <h3>Home</h3>
+          <ul>
+            <li data-target="dashboard">Dashboard</li>
+            <li data-target="notifications">Notifications</li>
+            <li data-target="activity">Activity</li>
+            <li data-target="messages">Messages</li>
+            <li data-target="calendar">Calendar</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>About</h3>
+          <ul>
+            <li data-target="team">Team</li>
+            <li data-target="company">Company</li>
+            <li data-target="careers">Careers</li>
+            <li data-target="history">History</li>
+            <li data-target="values">Values</li>
+          </ul>
+        </div>
+        
+        <div class="sidebar-section">
+          <h3>Projects</h3>
+          <ul>
+            <li data-target="current">Current</li>
+            <li data-target="archived">Archived</li>
+            <li data-target="new">New Project</li>
+            <li data-target="templates">Templates</li>
+            <li data-target="resources">Resources</li>
+          </ul>
+        </div>
+        
+        <div class="sidebar-section">
+          <h3>Contact</h3>
+          <ul>
+            <li data-target="email">Email</li>
+            <li data-target="phone">Phone</li>
+            <li data-target="support">Support</li>
+            <li data-target="feedback">Feedback</li>
+            <li data-target="contact-form">Contact Form</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content remains the same -->
+    <div class="div3 main-content" id="mainContent">
+      <h2>Welcome!</h2>
+      <p>Select an item from the sidebar or top menu to see content here.</p>
+    </div>
+
+    <!-- Footer remains the same -->
+    <div class="div4 footer">
+      <div class="footer-section about">
+        <h4>About Company</h4>
+        <p>Digital Solutions Inc. specializes in creating innovative web applications and digital experiences since 2015. Our team delivers cutting-edge technology solutions tailored to your business needs.</p>
+      </div>
+
+      <div class="footer-section quick-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Case Studies</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact">
+        <h4>Contact Us</h4>
+        <p>123 Business Avenue<br>
+        New York, NY 10001<br>
+        Phone: (212) 555-0100<br>
+        Email: info@digitalsolutions.com</p>
+      </div>
+
+      <div class="footer-section social">
+        <h4>Connect With Us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Improved user panel (div5) -->
+    <div class="div5 user-panel">
+      <ul class="user-menu">
+        <li onclick="location.href='signup.html'">Signup</li>
+        <li onclick="location.href='login.html'">Login</li>
+        <li onclick="location.href='profile.html'">Profile</li>
+        <li onclick="location.href='settings.html'">Settings</li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
