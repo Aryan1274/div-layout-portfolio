@@ -2,6 +2,8 @@
 
 A modern portfolio website built using **HTML**, **CSS**, and **JavaScript**, featuring a stylish card-based layout and responsive design. The site includes a landing section, services showcase, project highlights, and a professional footer for contact and social presence.
 
+URL -  https://divlayoutproject.netlify.app/
+
 ---
 
 ## 🚀 Features
